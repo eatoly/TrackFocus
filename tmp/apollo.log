@@ -1,0 +1,28 @@
+﻿  pch.cc
+  imgui-SFML.cpp
+c:\users\eatol\documents\soraj + ethan game\branches\trackfocus\dep\imgui-sfml\imgui-sfml.cpp(403): warning C4244: 'argument': conversion from 'const T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+  imgui.cpp
+  imgui_demo.cpp
+c:\users\eatol\documents\soraj + ethan game\branches\trackfocus\dep\imgui\imgui_demo.cpp(65): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  c:\users\eatol\documents\soraj + ethan game\branches\trackfocus\dep\imgui\imgui_demo.cpp: note: see previous definition of '_CRT_SECURE_NO_WARNINGS'
+c:\users\eatol\documents\soraj + ethan game\branches\trackfocus\dep\imgui\imgui_demo.cpp(65): warning C4603: '_CRT_SECURE_NO_WARNINGS': macro is not defined or definition is different after precompiled header use
+  c:\users\eatol\documents\soraj + ethan game\branches\trackfocus\dep\imgui\imgui_demo.cpp(65): note: Add macro to precompiled header instead of defining here
+  c:\users\eatol\documents\soraj + ethan game\branches\trackfocus\dep\imgui\imgui_demo.cpp(68): note: use of precompiled header
+  imgui_draw.cpp
+  imgui_widgets.cpp
+  io.cpp
+  main.cc
+c:\users\eatol\documents\soraj + ethan game\branches\trackfocus\src\main.cc(11): warning C4603: 'GB_IMPLEMENTATION': macro is not defined or definition is different after precompiled header use
+  c:\users\eatol\documents\soraj + ethan game\branches\trackfocus\src\main.cc(11): note: Add macro to precompiled header instead of defining here
+  c:\users\eatol\documents\soraj + ethan game\branches\trackfocus\src\main.cc(12): note: use of precompiled header
+  shared.cc
+  Generating code
+  1 of 1413 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  apollo.vcxproj -> C:\Users\eatol\Documents\Soraj + ethan game\branches\trackfocus\bin\apollo.exe

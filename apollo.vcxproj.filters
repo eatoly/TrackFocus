@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\asshurt.h" />
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\shared.h" />
+    <ClInclude Include="src\io.h" />
+    <ClInclude Include="dep\IMGUI\imconfig.h">
+      <Filter>dep\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="dep\IMGUI\imgui.h">
+      <Filter>dep\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="dep\IMGUI\imgui_internal.h">
+      <Filter>dep\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="dep\IMGUI\imstb_rectpack.h">
+      <Filter>dep\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="dep\IMGUI\imstb_textedit.h">
+      <Filter>dep\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="dep\IMGUI\imstb_truetype.h">
+      <Filter>dep\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="dep\IMGUI-SFML\imconfig-SFML.h">
+      <Filter>dep\IMGUI-SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="dep\IMGUI-SFML\imgui-SFML.h">
+      <Filter>dep\IMGUI-SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="dep\IMGUI-SFML\imgui-SFML_export.h">
+      <Filter>dep\IMGUI-SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\icon.h">
+      <Filter>dep\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cc" />
+    <ClCompile Include="src\pch.cc" />
+    <ClCompile Include="src\shared.cc" />
+    <ClCompile Include="src\io.cpp" />
+    <ClCompile Include="dep\IMGUI\imgui.cpp">
+      <Filter>dep\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dep\IMGUI\imgui_draw.cpp">
+      <Filter>dep\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dep\IMGUI\imgui_widgets.cpp">
+      <Filter>dep\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dep\IMGUI-SFML\imgui-SFML.cpp">
+      <Filter>dep\IMGUI-SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="dep\IMGUI\imgui_demo.cpp">
+      <Filter>dep\IMGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dep">
+      <UniqueIdentifier>{3e8d249f-7c0c-4378-8f3e-558e6e8caa67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dep\IMGUI-SFML">
+      <UniqueIdentifier>{87e9e996-47ac-407e-8a42-6538391eec22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dep\IMGUI">
+      <UniqueIdentifier>{ba13fa3d-6bc8-4f2e-a449-ae001fe84da8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="apollo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bin\tficon.ico" />
+  </ItemGroup>
+</Project>
